@@ -1,0 +1,27 @@
+.free-contact {
+  margin-top: 100px;
+  padding: 23.5px 0;
+  position: relative;
+}
+
+.free-contact__container {
+  height: 347px;
+  width: 100%;
+  border-radius: 45px;
+  background-color: #F3F3F3;
+  padding: 60px;
+  box-sizing: border-box;
+}
+
+.free-contact__info {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+
+.free-contact__image {
+  position: absolute;
+  top: 0;
+  right: 135px;
+}

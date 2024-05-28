@@ -1,3 +1,4 @@
+import FreeContact from '../FreeContact/FreeContact';
 import Section from '../Section/Section';
 import Services from '../Services/Services';
 import './Main.css';
@@ -11,6 +12,7 @@ function Main(props) {
       >
         <Services/>
       </Section>
+      <FreeContact/>
     </main>
   );
 }

@@ -35,7 +35,7 @@ function Header() {
           <p className='header__text'>
             Our digital marketing agency helps businesses grow and succeed online through a range of services including SEO, PPC, social media marketing, and content creation.
           </p>
-          <button className='header__button-black' type='button'>
+          <button className='black-button' type='button'>
             Book a consultation
           </button>
         </div>

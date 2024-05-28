@@ -62,27 +62,6 @@
   line-height: 28px;
 }
 
-.header__button-black {
-  font-weight: 400;
-  font-size: 20px;
-  color: #FFF;
-  width: 264px;
-  height: 68px;
-  border: solid 1px #000;
-  border-radius: 14px;
-  background: none;
-  background-color: #000;
-  cursor: pointer;
-}
-
-.header__button-black:hover {
-  background-color: #161616;
-}
-
-.header__button-black:active {
-  background-color: #000;
-}
-
 .header__image {
   margin-left: auto;
 }

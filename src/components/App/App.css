@@ -42,3 +42,24 @@ p {
 button {
   font-family: 'Space Grotesk', sans-serif;
 }
+
+.black-button {
+  font-weight: 400;
+  font-size: 20px;
+  color: #FFF;
+  padding: 20px 35px;
+  width: fit-content;
+  border: solid 1px #000;
+  border-radius: 14px;
+  background: none;
+  background-color: #000;
+  cursor: pointer;
+}
+
+.black-button:hover {
+  background-color: #1C1C1C;
+}
+
+.black-button:active {
+  background-color: #000;
+}
