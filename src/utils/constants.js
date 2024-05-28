@@ -65,4 +65,10 @@ export const employees = [
     job: "CEO and Founder",
     text: "10+ years of experience in digital marketing. Expertise in SEO, PPC, and content strategy",
   },
+  {
+    image: portrait2,
+    name: "Jane Doe",
+    job: "Director of Operations",
+    text: "7+ years of experience in project management and team leadership. Strong organizational and communication skills"
+  },
 ];
