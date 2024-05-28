@@ -1,0 +1,34 @@
+.footer {
+  background-color: #191A23;
+  display: flex;
+  flex-direction: column;
+  padding: 55px 60px 50px;
+  border-radius: 45px 45px 0 0;
+}
+
+.footer__navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__links {
+  display: flex;
+  gap: 40px;
+}
+
+.footer__link {
+  color: #FFF;
+  font-size: 18px;
+}
+
+.footer__socials {
+  display: flex;
+  gap: 20px;
+}
+
+.footer__social-button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
