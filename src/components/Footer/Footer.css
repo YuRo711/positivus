@@ -32,3 +32,73 @@
   background: none;
   cursor: pointer;
 }
+
+
+.footer__contacts {
+  margin-top: 66px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__contacts-title {
+  background-color: #B9FF66;
+  padding: 0 7px;
+  border-radius: 7px;
+  width: fit-content;
+}
+
+.footer__contact-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 27px;
+  list-style: none;
+  padding: 0;
+  max-width: 382px;
+}
+
+.footer__contact {
+  color: #FFF;
+}
+
+.footer__subscribe {
+  background-color: #292A32;
+  border-radius: 14px;
+  padding: 58px 40px;
+  display: flex;
+  gap: 20px;
+}
+
+.footer__input {
+  width: 285px;
+  border-radius: 14px;
+  border: solid 1px #FFF;
+  color: #FFF;
+  background: none;
+  padding: 22px 35px;
+  font-size: 20px;
+}
+
+.footer__input::placeholder {
+  opacity: 1;
+}
+
+.footer__button {
+  font-weight: 400;
+  font-size: 20px;
+  padding: 20px 35px;
+  width: fit-content;
+  border: none;
+  border-radius: 14px;
+  background-color: #B9FF66;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.footer__button:hover {
+  background-color: #9fdf52;
+}
+
+.footer__button:active {
+  background-color: #8ec946;
+}
