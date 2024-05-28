@@ -5,4 +5,32 @@
   box-sizing: border-box;
   width: 387px;
   height: 331px;
+  padding: 40px 35px;
+}
+
+.employee__header {
+  display: flex;
+  gap: 20px;
+}
+
+.employee__portrait {
+  background-image: url('../../images/portrait\ mask.svg');
+  background-repeat: no-repeat;
+  background-position: 6px 5px;
+  height: 103px;
+  width: 105px;
+}
+
+.employee__info {
+  margin-top: auto;
+}
+
+.employee__image {
+  mask-image: url('../../images/portrait\ mask.svg');
+}
+
+.employee__text {
+  border-top: solid 1px #000;
+  margin-top: 28px;
+  padding-top: 28px;
 }
