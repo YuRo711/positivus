@@ -71,4 +71,28 @@ export const employees = [
     job: "Director of Operations",
     text: "7+ years of experience in project management and team leadership. Strong organizational and communication skills"
   },
+  {
+    image: portrait3,
+    name: "Michael Brown",
+    job: "Senior SEO Specialist",
+    text: "5+ years of experience in SEO and content creation. Proficient in keyword research and on-page optimization",
+  },
+  {
+    image: portrait4,
+    name: "Emily Johnson",
+    job: "PPC Manager",
+    text: "3+ years of experience in paid search advertising. Skilled in campaign management and performance analysis",
+  },
+  {
+    image: portrait5,
+    name: "Brian Williams",
+    job: "Social Media Specialist",
+    text: "4+ years of experience in social media marketing. Proficient in creating and scheduling content, analyzing metrics, and building engagement",
+  },
+  {
+    image: portrait6,
+    name: "Sarah Kim",
+    job: "Content Creator",
+    text: "2+ years of experience in writing and editing. Skilled in creating compelling, SEO-optimized content for various industries",
+  },
 ];
