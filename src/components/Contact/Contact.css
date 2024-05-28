@@ -1,0 +1,105 @@
+.contact {
+  padding: 60px 100px;
+  background-color: #F3F3F3;
+  border-radius: 45px;
+  position: relative;
+  overflow: hidden;
+}
+
+.contact__form {
+  max-width: 556px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.contact__type {
+  display: flex;
+  gap: 35px;
+}
+
+.contact__radio-label {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.contact__fieldset {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  border: none;
+  padding: 0;
+}
+
+.contact__type-option {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.contact__radio {
+  position: absolute;
+  opacity: 0;
+}
+
+.contact__checkmark {
+  height: 28px;
+  width: 28px;
+  border: solid 1px #000;
+  background-color: #FFF;
+  border-radius: 50%;
+  position: relative;
+}
+
+.contact__checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.contact__radio:checked ~ .contact__checkmark:after {
+  display: block;
+}
+
+.contact__checkmark:after {
+  top: 6px;
+  left: 6px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #B9FF66;
+}
+
+.contact__label {
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.contact__input {
+  margin-top: 5px;
+  padding: 18px 30px;
+  font-size: 16px;
+  width: 100%;
+  border-radius: 14px;
+  border: solid 1px #000;
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-start;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.contact__input_big {
+  height: 190px;
+  font-family: 'Space Grotesk', sans-serif;
+  resize: none;
+}
+
+.contact__image {
+  position: absolute;
+  top: 60px;
+  right: -350px;
+}
+
+.contact__button {
+  width: 100% !important;
+}
