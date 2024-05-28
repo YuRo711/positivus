@@ -5,9 +5,7 @@ function Section(props) {
     <section className="section">
       <div className='section__header'>
         <h2 className='section__title'>{props.title}</h2>
-        <p className={`section__description ${
-          props.shortDesc ? "section__description_short" : ""
-        }`}>
+        <p className={`section__description section__description_${props.descLen}`}>
           {props.description}
         </p>
       </div>

@@ -18,10 +18,14 @@
   background-color: #B9FF66;
 }
 
-.section__description {
+.section__description_long {
   max-width: 580px;
 }
 
-.section__description {
+.section__description_medium {
+  max-width: 470px;
+}
+
+.section__description_short {
   max-width: 300px;
 }
