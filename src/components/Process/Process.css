@@ -1,0 +1,6 @@
+.process {
+  margin-bottom: 140px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
