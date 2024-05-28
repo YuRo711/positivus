@@ -102,3 +102,16 @@
 .footer__button:active {
   background-color: #8ec946;
 }
+
+
+.footer__info {
+  display: flex;
+  gap: 40px;
+  margin-top: 50px;
+  padding-top: 50px;
+  border-top: solid 1px #FFF;
+}
+
+.footer__copyright {
+  color: #FFF;
+}

@@ -79,6 +79,10 @@ function Footer() {
           </button>
         </div>
       </div>
+      <div className="footer__info">
+        <p className="footer__copyright">© 2024 Made by YuRo711</p>
+        <a className="footer__link" href="#">Privacy Policy</a>
+      </div>
     </footer>
   );
 }
