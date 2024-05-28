@@ -18,6 +18,7 @@ function Employee(props) {
         </div>
       </div>
       <p className="employee__text">{text}</p>
+      <button className="employee__button" type="button"></button>
     </div>
   );
 }

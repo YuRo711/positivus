@@ -6,6 +6,7 @@
   width: 387px;
   height: 331px;
   padding: 40px 35px;
+  position: relative;
 }
 
 .employee__header {
@@ -33,4 +34,19 @@
   border-top: solid 1px #000;
   margin-top: 28px;
   padding-top: 28px;
+}
+
+.employee__button {
+  width: 34px;
+  height: 34px;
+  border: none;
+  border-radius: 50%;
+  background-color: #000;
+  background-image: url('../../images/linkedin.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  position: absolute;
+  top: 40px;
+  right: 35px;
 }
