@@ -5,6 +5,34 @@
   flex-direction: column;
   margin: 0;
   overflow: hidden;
-  padding: 60px 0 0;
+  padding: 60px 100px 0;
+}
+
+h1 {
+  font-weight: 500;
+  font-size: 60px;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 40px;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 30px;
+}
+
+h4 {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+button {
   font-family: 'Space Grotesk', sans-serif;
 }

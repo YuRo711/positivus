@@ -1,0 +1,23 @@
+.section__header {
+  display: flex;
+  flex-direction: column;
+}
+
+.section__header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 40px;
+}
+
+.section__title {
+  padding: 0 7px;
+  height: min-content;
+  border-radius: 7px;
+  background-color: #B9FF66;
+  margin: 0;
+}
+
+.section__description {
+  max-width: 580px;
+}
