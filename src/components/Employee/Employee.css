@@ -1,0 +1,8 @@
+.employee {
+  border-radius: 45px;
+  border: solid 1px #000;
+  box-shadow: 0 5px #000;
+  box-sizing: border-box;
+  width: 387px;
+  height: 331px;
+}

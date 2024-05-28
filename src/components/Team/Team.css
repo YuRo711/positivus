@@ -1,0 +1,8 @@
+.team {
+  margin-bottom: 100px;
+}
+
+.team__cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
