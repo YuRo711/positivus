@@ -1,5 +1,6 @@
 import CaseStudies from '../CaseStudies/CaseStudies';
 import FreeContact from '../FreeContact/FreeContact';
+import Process from '../Process/Process';
 import Section from '../Section/Section';
 import Services from '../Services/Services';
 import './Main.css';
@@ -19,6 +20,12 @@ function Main(props) {
         description="Explore Real-Life Examples of Our Proven Digital Marketing Success through Our Case Studies"
       >
         <CaseStudies/>
+      </Section>
+      <Section
+        title="Our Working Process"
+        description="Step-by-Step Guide to Achieving Your Business Goals"
+      >
+        <Process/>
       </Section>
     </main>
   );

@@ -21,3 +21,7 @@
 .section__description {
   max-width: 580px;
 }
+
+.section__description {
+  max-width: 300px;
+}
