@@ -4,6 +4,12 @@ import image3 from '../images/tokyo-browser-window-with-emoticon-likes-and-stars
 import image4 from '../images/tokyo-sending-messages-from-one-place-to-another 1.svg';
 import image5 from '../images/tokyo-many-browser-windows-with-different-information 1.svg';
 import image6 from '../images/tokyo-volumetric-analytics-of-different-types-in-web-browsers 2.svg';
+import portrait1 from '../images/ian-dooley-d1UPkiFd04A-unsplash 1.png';
+import portrait2 from '../images/suad-kamardeen-khewjy5l4Zo-unsplash 2.png';
+import portrait3 from '../images/christian-buehner-DItYlc26zVI-unsplash 1.png';
+import portrait4 from '../images/feli-ramsanjami-agung-wUe_Q-t4-cI-unsplash 1.png';
+import portrait5 from '../images/chanvre-quebec-mXu1SpzHq6w-unsplash 1.png';
+import portrait6 from '../images/alexandra-gorn-smuS_jUZa9I-unsplash 1.png';
 
 
 export const services = [
@@ -48,5 +54,15 @@ export const services = [
     buttonColor: "white",
     title: "Analytics and tracking",
     image: image6,
+  },
+];
+
+
+export const employees = [
+  {
+    image: portrait1,
+    name: "John Smith",
+    job: "CEO and Founder",
+    text: "10+ years of experience in digital marketing. Expertise in SEO, PPC, and content strategy",
   },
 ];

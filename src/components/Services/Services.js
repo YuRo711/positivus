@@ -9,7 +9,7 @@ function Services(props) {
         services.map((data, id) => {
           return (
             <ServiceCard
-              key={id}
+              key={`se${id}`}
               bgColor={data.bgColor}
               titleColor={data.titleColor}
               buttonColor={data.buttonColor}
