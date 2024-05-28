@@ -1,3 +1,4 @@
+import CaseStudies from '../CaseStudies/CaseStudies';
 import FreeContact from '../FreeContact/FreeContact';
 import Section from '../Section/Section';
 import Services from '../Services/Services';
@@ -13,6 +14,12 @@ function Main(props) {
         <Services/>
       </Section>
       <FreeContact/>
+      <Section
+        title="Case Studies"
+        description="Explore Real-Life Examples of Our Proven Digital Marketing Success through Our Case Studies"
+      >
+        <CaseStudies/>
+      </Section>
     </main>
   );
 }

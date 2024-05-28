@@ -1,0 +1,49 @@
+.case-studies {
+  margin-bottom: 140px;
+}
+
+.case-studies__container {
+  background-color: #191A23;
+  border-radius: 45px;
+  width: 100%;
+  padding: 70px 60px;
+  display: flex;
+  box-sizing: border-box;
+}
+
+.case-studies__case {
+  max-width: 286px;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.case-studies__text {
+  color: #FFF;
+}
+
+.case-studies__button {
+  background: none;
+  border: none;
+  color: #FFF;
+  display: flex;
+  align-items: center;
+  color: #B9FF66;
+  font-size: 20px;
+  gap: 12px;
+}
+
+.case-studies__button-icon {
+  background-image: url('../../images/arrow.svg');
+  background-repeat: no-repeat;
+  width: 22px;
+  height: 22px;
+}
+
+.case-studies__separator {
+  height: 186px;
+  width: 1px;
+  box-sizing: border-box;
+  border-left: solid 1px #FFF;
+  margin: 0 64px;
+}
