@@ -5,6 +5,8 @@ import whiteArrow from '../../images/more light.svg';
 function ServiceCard(props) {
   const {bgColor, titleColor, buttonColor, title, image} = props;
   const buttonImage = buttonColor === "green" ? greenArrow : whiteArrow;
+  const buttonClass = "service-card__button" + 
+    (bgColor === "black" ? " service-card__button_white" : "");
 
   return (
     <div className={`service-card service-card_bg_${bgColor}`}>
@@ -14,7 +16,8 @@ function ServiceCard(props) {
             {title}
           </span>
         </h3>
-        <button className='service-card__button'>
+        <button className={buttonClass}
+        >
           <img className='service-card__button-icon'
             src={buttonImage}
             alt='arrow vector'

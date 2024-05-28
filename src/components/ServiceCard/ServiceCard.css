@@ -17,6 +17,10 @@
   background-color: #B9FF66;
 }
 
+.service-card_bg_black {
+  background-color: #191A23;
+}
+
 .service-card__column {
   display: flex;
   flex-direction: column;
@@ -51,6 +55,10 @@
   border: none;
   font-size: 20px;
   cursor: pointer;
+}
+
+.service-card__button_white {
+  color: #FFF;
 }
 
 .service-card__button-icon {
