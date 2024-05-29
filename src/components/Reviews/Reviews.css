@@ -1,0 +1,93 @@
+.reviews {
+  background-color: #191A23;
+  border-radius: 45px;
+  height: 625px;
+  margin-bottom: 140px;
+  overflow: hidden;
+  position: relative;
+}
+
+.reviews__bubble {
+  background-image: url('../../images/Bubble.svg');
+  width: 606px;
+  height: 266px;
+  color: #FFF;
+  box-sizing: border-box;
+  padding: 52px 48px;
+}
+
+.reviews__author {
+  margin: 20px 0 0 80px;
+}
+
+.reviews__name {
+  color: #B9FF66;
+}
+
+.reviews__title {
+  color: #FFF;
+}
+
+
+.alice-carousel {
+  margin-top: 84px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+}
+
+.alice-carousel__stage {
+  display: flex;
+  gap: 50px;
+  position: relative;
+  list-style: none;
+  padding: 0;
+}
+
+.alice-carousel__dots {
+  display: flex;
+  list-style: none;
+  gap: 19px;
+  justify-content: center;
+}
+
+.alice-carousel__dots-item {
+  width: 14px;
+  height: 14px;
+  background-image: url('../../images/dot.svg');
+  cursor: pointer;
+}
+
+.alice-carousel__dots-item.__active {
+  background-image: url('../../images/dot\ active.svg');
+}
+
+.alice-carousel__prev-btn-item {
+  width: 25px;
+  height: 25px;
+  background-image: url('../../images/Arrow\ right.svg');
+  transform: rotate(180deg);
+  cursor: pointer;
+  position: relative;
+  top: -90px;
+  left: 303px;
+}
+
+.alice-carousel__prev-btn-item.__inactive {
+  opacity: 0.3;
+}
+
+.alice-carousel__next-btn-item {
+  width: 25px;
+  height: 25px;
+  background-image: url('../../images/Arrow\ right.svg');
+  cursor: pointer;
+  position: relative;
+  top: -170px;
+  left: 909px;
+}
+
+.alice-carousel__next-btn-item.__inactive {
+  opacity: 0.3;
+}

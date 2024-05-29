@@ -2,6 +2,7 @@ import CaseStudies from '../CaseStudies/CaseStudies';
 import Contact from '../Contact/Contact';
 import FreeContact from '../FreeContact/FreeContact';
 import Process from '../Process/Process';
+import Reviews from '../Reviews/Reviews';
 import Section from '../Section/Section';
 import Services from '../Services/Services';
 import Team from '../Team/Team';
@@ -38,6 +39,13 @@ function Main(props) {
         description="Meet the skilled and experienced team behind our successful digital marketing strategies"
       >
         <Team/>
+      </Section>
+      <Section
+        descLen="medium"
+        title="Testimonials"
+        description="Hear from Our Satisfied Clients: Read Our Testimonials to Learn More about Our Digital Marketing Services"
+      >
+        <Reviews/>
       </Section>
       <Section
         descLen="short"
