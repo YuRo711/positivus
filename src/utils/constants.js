@@ -103,8 +103,23 @@ export const reviews = [
     title: "Marketing Director at XYZ Corp",
   },
   {
-    text: "",
-    name: "",
-    title: "",
+    text: "Choosing Positivus was one of the best decisions we made for our brand! Their creative strategies and innovative ideas have revitalized our online presence, driving significant growth and engagement across all platforms. Thank you, Positivus, for being an invaluable partner in our journey towards success!",
+    name: "Catherine Miller",
+    title: "Marketing Director at BigCorp Inc.",
+  },
+  {
+    text: "Working with Positivus has been an absolute game-changer for our business! Their team's expertise and dedication have propelled our online presence to new heights. From crafting engaging content to executing targeted campaigns, they've consistently delivered outstanding results.",
+    name: "Leya Green",
+    title: "Marketing Director at ABC Corp",
+  },
+  {
+    text: "Positivus truly lives up to its name! Partnering with them has been an uplifting experience from start to finish. Their team's enthusiasm, expertise, and dedication shine through in every aspect of their work. Highly recommend Positivus to any business looking to make a meaningful impact in the digital space!",
+    name: "Michael Charles",
+    title: "Marketing Director at DEF Corp",
+  },
+  {
+    text: "Positivus has completely transformed our digital presence! From the moment we engaged with their team, we knew we were in good hands. Their holistic approach to digital marketing, coupled with their unwavering commitment to our brand's success, has yielded outstanding results. ",
+    name: "Ivan Petrov",
+    title: "Marketing Director at KLM Corp",
   },
 ];
